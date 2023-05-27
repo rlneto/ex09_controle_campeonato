@@ -52,6 +52,7 @@ class Equipe():
             return None
         else:
             self.jogadores.append(jogador)
+            return True
 
     '''
         Remove um jogador da lista de jogadores da equipe
@@ -64,6 +65,7 @@ class Equipe():
             return None
         else:
             self.jogadores.pop(self.jogadores.index(jogador))
+            return True
 
     '''
         Retorna um numero inteiro com a quantidade total
