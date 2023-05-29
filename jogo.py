@@ -45,9 +45,18 @@ class Jogo():
     def equipe_1(self) -> Equipe:
         return self.__equipe_1
 
+    @equipe_1.setter
+    def equipe_1(self, equipe_1: Equipe):
+        self.__equipe_1 = equipe_1
+
     @property
     def equipe_2(self) -> Equipe:
         return self.__equipe_2
+
+    @equipe_2.setter
+    def equipe_2(self, equipe: Equipe):
+        self.__equipe_2 = equipe
+
 
     @property
     def gols_equipe_1(self) -> int:
